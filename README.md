@@ -20,6 +20,7 @@ En esta primera entrega nos hemos sentado en la creación de nuestro primer proy
 El pong es un juego de dos jugadores, donde cada jugador maneja una paleta rectangular, dicha paleta se mueve verticalmente, como si estuviera “sobra railes”, además de una esfera que se mueve en nuestro tablero. Nuestro objetivo es anotar 4 puntos, un punto significa que la esfera toca el borde lateral de cada jugador, lo que se podría traducir en que, nuestro borde lateral es nuestra portería y nuestra paleta es el portero, haciendo referencia a un deporte tradicional como puede ser el futbol.
 
 ![N|Solid](https://i.gyazo.com/090312135fe810fa419fb6287692d70b.png)
+
 En la parte superior izquierda vemos el marcador de ambos jugadores, además de una pequeña ayuda para los nuevos jugadores.
 Entrando más en materia, nuestra esfera en primer lugar se mueve horizontalmente hacia el lado contrario de donde rebote, no obstante, si al golpear dicha pelota nuestro golpeo es en movimiento, esta añade una componente “vertical” a su movimiento, lo que produce un movimiento en diagonal. Así mismo, si la esfera toca la parte superior o inferior “rebota” y continua su trayectoria con la componente “vertical” conjugada.
 Por otra parte, al anotar un gol, se suma un punto al marcador y se reinician las componentes. Este reinicio implica que todos los elementos vuelven a su posición inicial, se elimina la componente vertical de la esfera y esta comienza moviéndose hacia el lado opuesto del gol.
